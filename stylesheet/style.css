@@ -1,0 +1,1562 @@
+.PRIMERA-PANTALLA {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+body, html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+.PRIMERA-PANTALLA .overlap-group-wrapper {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 360px;
+  height: 800px;
+}
+.PRIMERA-PANTALLA .overlap-group {
+  position: relative;
+  width: 499px;
+  height: 877px;
+  top: -77px;
+  left: -69px;
+}
+.PRIMERA-PANTALLA .kettlebell-gym {
+  position: absolute;
+  width: 360px;
+  height: 800px;
+  top: 77px;
+  left: 69px;
+  object-fit: cover;
+}
+.PRIMERA-PANTALLA .ellipse {
+  position: absolute;
+  width: 499px;
+  height: 673px;
+  top: 0;
+  left: 0;
+  background-color: #d9d9d9cc;
+  border-radius: 249.5px / 336.5px;
+}
+.PRIMERA-PANTALLA .rectangle {
+  background-color: #818181;
+  position: absolute;
+  width: 360px;
+  height: 30px;
+  top: 77px;
+  left: 69px;
+}
+.PRIMERA-PANTALLA .div {
+  background-color: #08070c;
+  position: absolute;
+  width: 360px;
+  height: 30px;
+  top: 77px;
+  left: 69px;
+}
+.PRIMERA-PANTALLA .icon {
+  position: absolute;
+  width: 13px;
+  height: 9px;
+  top: 88px;
+  left: 394px;
+}
+.PRIMERA-PANTALLA .text-wrapper {
+  position: absolute;
+  top: 85px;
+  left: 366px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.PRIMERA-PANTALLA .text-wrapper-2 {
+  position: absolute;
+  top: 86px;
+  left: 85px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.PRIMERA-PANTALLA .group {
+  position: absolute;
+  width: 14px;
+  height: 10px;
+  top: 85px;
+  left: 344px;
+}
+.PRIMERA-PANTALLA .icon-instagram-fill {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 88px;
+  left: 128px;
+}
+.PRIMERA-PANTALLA .icon-envelope-icon {
+  position: absolute;
+  width: 13px;
+  height: 10px;
+  top: 90px;
+  left: 147px;
+}
+.PRIMERA-PANTALLA .icon-facebook-icon {
+  position: absolute;
+  width: 10px;
+  height: 17px;
+  top: 84px;
+  left: 166px;
+}
+.PRIMERA-PANTALLA .capa {
+  position: absolute;
+  width: 300px;
+  height: 156px;
+  top: 399px;
+  left: 99px;
+}
+
+.FORMULARIO-DE-INICIO {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.FORMULARIO-DE-INICIO .overlap-wrapper {
+  overflow: hidden;
+  background-image: url(./img/FORMULARIO-DE-INICIO.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 360px;
+  height: 800px;
+}
+.FORMULARIO-DE-INICIO .overlap {
+  position: relative;
+  width: 364px;
+  height: 800px;
+}
+.FORMULARIO-DE-INICIO .element-gym {
+  position: absolute;
+  width: 360px;
+  height: 800px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.FORMULARIO-DE-INICIO .rectangle {
+  position: absolute;
+  width: 275px;
+  height: 547px;
+  top: 126px;
+  left: 42px;
+  background-color: #d9d9d9b2;
+  border-radius: 20px;
+}
+.FORMULARIO-DE-INICIO .text-wrapper {
+  position: absolute;
+  top: 140px;
+  left: 84px;
+  font-family: "Inter-Black", Helvetica;
+  font-weight: 900;
+  color: #ff0000;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.FORMULARIO-DE-INICIO .group {
+  position: absolute;
+  width: 364px;
+  height: 30px;
+  top: 0;
+  left: 0;
+}
+.FORMULARIO-DE-INICIO .overlap-group {
+  position: relative;
+  width: 360px;
+  height: 30px;
+  background-color: #08070c;
+}
+.FORMULARIO-DE-INICIO .icon {
+  position: absolute;
+  width: 13px;
+  height: 9px;
+  top: 12px;
+  left: 326px;
+}
+.FORMULARIO-DE-INICIO .div {
+  position: absolute;
+  top: 9px;
+  left: 297px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.FORMULARIO-DE-INICIO .text-wrapper-2 {
+  position: absolute;
+  top: 10px;
+  left: 16px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.FORMULARIO-DE-INICIO .img {
+  position: absolute;
+  width: 14px;
+  height: 10px;
+  top: 8px;
+  left: 275px;
+}
+.FORMULARIO-DE-INICIO .icon-instagram-fill {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 11px;
+  left: 59px;
+}
+.FORMULARIO-DE-INICIO .icon-envelope-icon {
+  position: absolute;
+  width: 13px;
+  height: 10px;
+  top: 13px;
+  left: 78px;
+}
+.FORMULARIO-DE-INICIO .icon-facebook-icon {
+  position: absolute;
+  width: 10px;
+  height: 17px;
+  top: 6px;
+  left: 98px;
+}
+.FORMULARIO-DE-INICIO .NOMBRE {
+  position: absolute;
+  width: 243px;
+  height: 31px;
+  top: 235px;
+  left: 58px;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+.FORMULARIO-DE-INICIO .text-wrapper-3 {
+  position: absolute;
+  top: 8px;
+  left: 60px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000b0;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.FORMULARIO-DE-INICIO .FECHA {
+  position: absolute;
+  width: 243px;
+  height: 31px;
+  top: 317px;
+  left: 61px;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+.FORMULARIO-DE-INICIO .text-wrapper-4 {
+  position: absolute;
+  top: 8px;
+  left: 58px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000b0;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.FORMULARIO-DE-INICIO .GENERO {
+  position: absolute;
+  width: 243px;
+  height: 31px;
+  top: 400px;
+  left: 61px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.FORMULARIO-DE-INICIO .text-wrapper-5 {
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000b0;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.FORMULARIO-DE-INICIO .ENVIAR {
+  position: absolute;
+  width: 243px;
+  height: 31px;
+  top: 560px;
+  left: 61px;
+  background-color: #ff0000;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.FORMULARIO-DE-INICIO .icono-enviar {
+  margin-left: 8px;
+  width: 16px;
+  height: 16px;
+}
+.FORMULARIO-DE-INICIO {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+body, html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Color de fondo opcional */
+}
+.FORMULARIO-DE-INICIO .overlap-wrapper {
+  overflow: hidden;
+  background-image: url(./img/FORMULARIO-DE-INICIO.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 360px;
+  height: 800px;
+}
+
+.FORMULARIO-DE-INICIO .overlap {
+  position: relative;
+  width: 364px;
+  height: 800px;
+}
+
+.FORMULARIO-DE-INICIO .element-gym {
+  position: absolute;
+  width: 360px;
+  height: 800px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.FORMULARIO-DE-INICIO .rectangle {
+  position: absolute;
+  width: 275px;
+  height: 547px;
+  top: 126px;
+  left: 42px;
+  background-color: #d9d9d9b2;
+  border-radius: 20px;
+}
+
+.FORMULARIO-DE-INICIO .text-wrapper {
+  position: absolute;
+  top: 140px;
+  left: 84px;
+  font-family: "Inter-Black", Helvetica;
+  font-weight: 900;
+  color: #ff0000;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.FORMULARIO-DE-INICIO .group {
+  position: absolute;
+  width: 364px;
+  height: 30px;
+  top: 0;
+  left: 0;
+}
+
+.FORMULARIO-DE-INICIO .overlap-group {
+  position: relative;
+  width: 360px;
+  height: 30px;
+  background-color: #08070c;
+}
+
+.FORMULARIO-DE-INICIO .icon {
+  position: absolute;
+  width: 13px;
+  height: 9px;
+  top: 12px;
+  left: 326px;
+}
+
+.FORMULARIO-DE-INICIO .div {
+  position: absolute;
+  top: 9px;
+  left: 297px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.FORMULARIO-DE-INICIO .text-wrapper-2 {
+  position: absolute;
+  top: 10px;
+  left: 16px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.FORMULARIO-DE-INICIO .img {
+  position: absolute;
+  width: 14px;
+  height: 10px;
+  top: 8px;
+  left: 275px;
+}
+
+.FORMULARIO-DE-INICIO .icon-instagram-fill {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 11px;
+  left: 59px;
+}
+
+.FORMULARIO-DE-INICIO .icon-envelope-icon {
+  position: absolute;
+  width: 13px;
+  height: 10px;
+  top: 13px;
+  left: 78px;
+}
+
+.FORMULARIO-DE-INICIO .icon-facebook-icon {
+  position: absolute;
+  width: 10px;
+  height: 17px;
+  top: 6px;
+  left: 98px;
+}
+
+.FORMULARIO-DE-INICIO .NOMBRE {
+  position: absolute;
+  width: 243px;
+  height: 31px;
+  top: 235px;
+  left: 58px;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+
+.FORMULARIO-DE-INICIO .text-wrapper-3 {
+  position: absolute;
+  top: 8px;
+  left: 60px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000b0;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.FORMULARIO-DE-INICIO .FECHA {
+  position: absolute;
+  width: 243px;
+  height: 31px;
+  top: 317px;
+  left: 61px;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+
+.FORMULARIO-DE-INICIO .text-wrapper-4 {
+  position: absolute;
+  top: 8px;
+  left: 58px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000b0;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.FORMULARIO-DE-INICIO .GENERO {
+  position: absolute;
+  width: 243px;
+  height: 31px;
+  top: 398px;
+  left: 60px;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+
+.FORMULARIO-DE-INICIO .text-wrapper-5 {
+  position: absolute;
+  top: 8px;
+  left: 98px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000b0;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.FORMULARIO-DE-INICIO .PESO {
+  position: absolute;
+  width: 243px;
+  height: 31px;
+  top: 476px;
+  left: 62px;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+
+.FORMULARIO-DE-INICIO .text-wrapper-6 {
+  position: absolute;
+  top: 8px;
+  left: 83px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000b0;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.FORMULARIO-DE-INICIO .boton {
+  position: absolute;
+  width: 108px;
+  height: 47px;
+  top: 542px;
+  left: 126px;
+  background-image: url(./img/vector.svg);
+  background-size: 100% 100%;
+}
+
+.FORMULARIO-DE-INICIO .text-wrapper-7 {
+  position: absolute;
+  top: 16px;
+  left: 44px;
+  font-family: "Inter-Black", Helvetica;
+  font-weight: 900;
+  color: #ff0000;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.vector-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  }
+  .enviar {
+  position: absolute;
+  top: 36.17%;
+  left: 40.74%;
+  font-weight: 900;
+  }
+  .boton {
+  width: 100%;
+  position: relative;
+  height: 47px;
+  text-align: left;
+  font-size: 11px;
+  color: #ff0000;
+  font-family: Inter;
+  }
+  .FORMULARIO-DE-INICIO {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  body, html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Color de fondo opcional */
+}
+.motivacion {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.motivacion .div {
+  overflow: hidden;
+  background-image: url(../Images/fondo.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 360px;
+  height: 800px;
+  position: relative;
+}
+
+.motivacion .overlap {
+  position: absolute;
+  width: 360px;
+  height: 60px;
+  top: 740px;
+  left: 0;
+  background-color: #818181;
+}
+
+.motivacion .atras {
+  position: absolute;
+  width: 30px;
+  height: 28px;
+  top: 15px;
+  left: 25px;
+}
+
+.motivacion .casa {
+  position: absolute;
+  width: 30px;
+  height: 26px;
+  top: 17px;
+  left: 112px;
+}
+
+.motivacion .ejercicios {
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  top: 23px;
+  left: 199px;
+}
+
+.motivacion .comida {
+  position: absolute;
+  width: 30px;
+  height: 32px;
+  top: 15px;
+  left: 296px;
+}
+
+.motivacion .group {
+  position: absolute;
+  width: 364px;
+  height: 30px;
+  top: 0;
+  left: 0;
+}
+
+.motivacion .overlap-group {
+  position: relative;
+  width: 360px;
+  height: 30px;
+  background-color: #08070c;
+}
+
+.motivacion .icon {
+  position: absolute;
+  width: 13px;
+  height: 9px;
+  top: 12px;
+  left: 326px;
+}
+
+.motivacion .text-wrapper {
+  position: absolute;
+  top: 9px;
+  left: 297px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.motivacion .text-wrapper-2 {
+  position: absolute;
+  top: 10px;
+  left: 16px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.motivacion .img {
+  position: absolute;
+  width: 14px;
+  height: 10px;
+  top: 8px;
+  left: 275px;
+}
+
+.motivacion .icon-instagram-fill {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 11px;
+  left: 59px;
+}
+
+.motivacion .icon-envelope-icon {
+  position: absolute;
+  width: 13px;
+  height: 10px;
+  top: 13px;
+  left: 78px;
+}
+
+.motivacion .icon-facebook-icon {
+  position: absolute;
+  width: 10px;
+  height: 17px;
+  top: 6px;
+  left: 98px;
+}
+
+.motivacion .group-2 {
+  position: absolute;
+  width: 611px;
+  height: 588px;
+  top: 106px;
+  left: -313px;
+  transform: rotate(-90.00deg);
+}
+
+.motivacion .group-3 {
+  position: absolute;
+  width: 182px;
+  height: 180px;
+  top: 0;
+  left: 218px;
+  transform: rotate(180.00deg);
+}
+
+.motivacion .div-wrapper {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  top: 0;
+  left: 0;
+  background-color: #d9d9d9;
+  border-radius: 90px;
+}
+
+.motivacion .text-wrapper-3 {
+  position: absolute;
+  top: 124px;
+  left: 43px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #363636;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.motivacion .vector {
+  position: absolute;
+  width: 39px;
+  height: 33px;
+  top: -32299px;
+  left: 4293px;
+  transform: rotate(-90.00deg);
+}
+
+.motivacion .vector-2 {
+  position: absolute;
+  width: 62px;
+  height: 46px;
+  top: -32367px;
+  left: 4299px;
+  transform: rotate(-90.00deg);
+}
+
+.motivacion .overlap-wrapper {
+  position: absolute;
+  width: 182px;
+  height: 180px;
+  top: 408px;
+  left: 219px;
+  transform: rotate(90.00deg);
+}
+
+.motivacion .overlap-2 {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  background-color: #ffffff;
+  border-radius: 90px;
+}
+
+.motivacion .text-wrapper-4 {
+  position: absolute;
+  top: 123px;
+  left: 23px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #4c4b4b;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.motivacion .vector-3 {
+  position: absolute;
+  width: 79px;
+  height: 86px;
+  top: 33px;
+  left: 49px;
+}
+
+.motivacion .overlap-group-wrapper {
+  position: absolute;
+  width: 182px;
+  height: 180px;
+  top: 204px;
+  left: 0;
+  transform: rotate(90.00deg);
+}
+
+.motivacion .overlap-3 {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  background-color: #818181;
+  border-radius: 90px;
+}
+
+.motivacion .group-4 {
+  position: absolute;
+  width: 43px;
+  height: 54px;
+  top: 48px;
+  left: 97px;
+}
+
+.motivacion .text-wrapper-5 {
+  position: absolute;
+  top: 121px;
+  left: 45px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #363636;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.motivacion .group-5 {
+  position: absolute;
+  width: 182px;
+  height: 180px;
+  top: 204px;
+  left: 431px;
+  transform: rotate(90.00deg);
+}
+
+.motivacion .vector-4 {
+  position: absolute;
+  width: 20px;
+  height: 91px;
+  top: 29px;
+  left: 97px;
+}
+
+.motivacion .text-wrapper-6 {
+  position: absolute;
+  top: 128px;
+  left: 41px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #363636;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+/* <!-- Séptima Pantalla - Recetas y Dietas --> */
+
+
+body, html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.recetas-y-dietas {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.recetas-y-dietas .overlap-wrapper {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 364px;
+  height: 800px;
+}
+
+.RECETAS-y-DIETAS .overlap {
+  position: relative;
+  width: 364px;
+  height: 800px;
+}
+
+.RECETAS-y-DIETAS .element {
+  position: absolute;
+  width: 360px;
+  height: 729px;
+  top: 23px;
+  left: 0;
+  object-fit: cover;
+}
+
+.RECETAS-y-DIETAS .group {
+  position: absolute;
+  width: 364px;
+  height: 30px;
+  top: 0;
+  left: 0;
+}
+
+.RECETAS-y-DIETAS .overlap-group {
+  position: relative;
+  width: 360px;
+  height: 39px;
+  background-color: #08070c;
+}
+
+.RECETAS-y-DIETAS .icon {
+  position: absolute;
+  width: 13px;
+  height: 9px;
+  top: 12px;
+  left: 326px;
+}
+
+.RECETAS-y-DIETAS .text-wrapper {
+  position: absolute;
+  top: 9px;
+  left: 297px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.RECETAS-y-DIETAS .text-wrapper2 {
+  position: absolute;
+  top: 10px;
+  left: 16px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.RECETAS-y-DIETAS .div {
+  position: absolute;
+  width: 16px;
+  top: 8px;
+  left: 260px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 11px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.RECETAS-y-DIETAS .img {
+  position: absolute;
+  width: 14px;
+  height: 10px;
+  top: 8px;
+  left: 275px;
+}
+
+.RECETAS-y-DIETAS .icon-instagram-fill {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 11px;
+  left: 59px;
+}
+
+.RECETAS-y-DIETAS .icon-envelope-icon {
+  position: absolute;
+  width: 13px;
+  height: 10px;
+  top: 13px;
+  left: 78px;
+}
+
+.RECETAS-y-DIETAS .icon-facebook-icon {
+  position: absolute;
+  width: 10px;
+  height: 17px;
+  top: 6px;
+  left: 98px;
+}
+
+.RECETAS-y-DIETAS .rectangle {
+  position: absolute;
+  width: 360px;
+  height: 60px;
+  top: 740px;
+  left: 0;
+  background-color: #818181;
+}
+
+.RECETAS-y-DIETAS .atras {
+  position: absolute;
+  width: 30px;
+  height: 28px;
+  top: 755px;
+  left: 25px;
+}
+
+.RECETAS-y-DIETAS .casa {
+  position: absolute;
+  width: 30px;
+  height: 26px;
+  top: 757px;
+  left: 112px;
+}
+
+.RECETAS-y-DIETAS .desayunos {
+  position: absolute;
+  width: 139px;
+  height: 139px;
+  top: 326px;
+  left: 35px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.RECETAS-y-DIETAS .almuezos {
+  position: absolute;
+  width: 139px;
+  height: 139px;
+  top: 326px;
+  left: 193px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.RECETAS-y-DIETAS .snacks {
+  position: absolute;
+  width: 139px;
+  height: 139px;
+  top: 508px;
+  left: 193px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.RECETAS-y-DIETAS .cenas {
+  position: absolute;
+  width: 139px;
+  height: 139px;
+  top: 508px;
+  left: 35px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* Estilos comunes para las etiquetas negras semitransparentes */
+.RECETAS-y-DIETAS .deg-snacks,
+.RECETAS-y-DIETAS .deg-snacks-2,
+.RECETAS-y-DIETAS .deg-snacks-3,
+.RECETAS-y-DIETAS .deg-snacks-4 {
+  position: absolute;
+  width: 139px;
+  height: 37px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+}
+
+/* Posiciones específicas para cada contenedor */
+.RECETAS-y-DIETAS .deg-snacks {
+  top: 603px;
+  left: 193px;
+}
+
+.RECETAS-y-DIETAS .deg-snacks-2 {
+  top: 424px;
+  left: 193px;
+}
+
+.RECETAS-y-DIETAS .deg-snacks-3 {
+  top: 603px;
+  left: 35px;
+}
+
+.RECETAS-y-DIETAS .deg-snacks-4 {
+  top: 423px;
+  left: 35px;
+}
+
+.RECETAS-y-DIETAS .text-wrapper-2 {
+  position: absolute;
+  width: 96px;
+  top: 432px;
+  left: 57px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.RECETAS-y-DIETAS .text-wrapper-3 {
+  position: absolute;
+  width: 96px;
+  top: 431px;
+  left: 215px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.RECETAS-y-DIETAS .text-wrapper-4 {
+  position: absolute;
+  width: 65px;
+  top: 613px;
+  left: 230px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.RECETAS-y-DIETAS .text-wrapper-5 {
+  position: absolute;
+  width: 53px;
+  top: 613px;
+  left: 78px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.RECETAS-y-DIETAS .rectangle-3 {
+  position: absolute;
+  width: 334px;
+  height: 108px;
+  top: 132px;
+  left: 13px;
+  background-color: rgba(217, 217, 217, 0.6);
+  border-radius: 20px;
+}
+
+.RECETAS-y-DIETAS .comer-bien {
+  position: absolute;
+  top: 125px;
+  left: 50px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 23px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  z-index: 2;
+}
+
+.RECETAS-y-DIETAS .ejercicios {
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  top: 763px;
+  left: 199px;
+}
+
+.RECETAS-y-DIETAS .comida {
+  position: absolute;
+  width: 30px;
+  height: 32px;
+  top: 755px;
+  left: 296px;
+}
+
+.RECETAS-y-DIETAS .menu {
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  top: 38px;
+  left: 11px;
+}
+/* <!-- octava Pantalla - almuerzos --> */
+body, html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+.ALMUERZOS {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.ALMUERZOS .overlap-wrapper {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 360px;
+  height: 800px;
+}
+
+.ALMUERZOS .overlap {
+  position: relative;
+  width: 370px;
+  height: 800px;
+  left: -5px;
+}
+
+.ALMUERZOS .vector {
+  height: 698px;
+  top: 9px;
+  position: absolute;
+  width: 360px;
+  left: 5px;
+}
+
+.ALMUERZOS .img {
+  height: 794px;
+  top: 6px;
+  object-fit: cover;
+  position: absolute;
+  width: 360px;
+  left: 5px;
+}
+
+.ALMUERZOS .rectangle {
+  position: absolute;
+  width: 370px;
+  height: 645px;
+  top: 155px;
+  left: 0;
+  background-color: #81c784b2;
+  border-radius: 40px;
+}
+
+.ALMUERZOS .div {
+  position: absolute;
+  width: 360px;
+  height: 60px;
+  top: 740px;
+  left: 5px;
+  background-color: #818181;
+}
+
+.ALMUERZOS .atras {
+  position: absolute;
+  width: 30px;
+  height: 28px;
+  top: 755px;
+  left: 30px;
+}
+
+.ALMUERZOS .comida {
+  position: absolute;
+  width: 30px;
+  height: 32px;
+  top: 755px;
+  left: 301px;
+}
+
+.ALMUERZOS .group {
+  position: absolute;
+  width: 364px;
+  height: 30px;
+  top: 0;
+  left: 5px;
+}
+
+.ALMUERZOS .overlap-group {
+  position: relative;
+  width: 360px;
+  height: 30px;
+  background-color: #08070c;
+}
+
+.ALMUERZOS .icon {
+  position: absolute;
+  width: 13px;
+  height: 9px;
+  top: 12px;
+  left: 326px;
+}
+
+.ALMUERZOS .text-wrapper {
+  position: absolute;
+  top: 9px;
+  left: 297px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.ALMUERZOS .text-wrapper-2 {
+  position: absolute;
+  top: 10px;
+  left: 16px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.ALMUERZOS .group-2 {
+  position: absolute;
+  width: 14px;
+  height: 10px;
+  top: 8px;
+  left: 275px;
+}
+
+.ALMUERZOS .icon-instagram-fill {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 11px;
+  left: 59px;
+}
+
+.ALMUERZOS .icon-envelope-icon {
+  position: absolute;
+  width: 13px;
+  height: 10px;
+  top: 13px;
+  left: 78px;
+}
+
+.ALMUERZOS .icon-facebook-icon {
+  position: absolute;
+  width: 10px;
+  height: 17px;
+  top: 5px;
+  left: 98px;
+}
+
+.ALMUERZOS .text-wrapper-3 {
+  position: absolute;
+  top: 90px;
+  left: 58px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #FF0000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.ALMUERZOS .frame {
+  display: inline-flex;
+  flex-direction: column;
+  height: 521px;
+  align-items: flex-start;
+  gap: 27px;
+  padding: 18px;
+  position: absolute;
+  top: 200px;
+  left: 22px;
+  border-radius: 20px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.ALMUERZOS .overlap-group-wrapper {
+  position: relative;
+  width: 309px;
+  height: 110px;
+  margin-right: -2px;
+}
+
+.ALMUERZOS .overlap-group-2 {
+  position: relative;
+  width: 300px;
+  height: 119px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+.ALMUERZOS .overlap-group-21 {
+  position: relative;
+  width: 300px;
+  height: 105px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.ALMUERZOS .d-fd-af {
+  position: absolute;
+  width: 254px;
+  height: 70px;
+  top: 9px;
+  left: 26px;
+}
+
+.ALMUERZOS .text-wrapper-4 {
+  position: absolute;
+  width: 295px;
+  font-family: "Inter-Black", Helvetica;
+  font-weight: 900;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  
+}
+
+.ALMUERZOS .p {
+    position: absolute;
+    width: 295px;
+    font-family: "Inter-Black", Helvetica;
+    font-weight: 900;
+    color: #ff0000;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    bottom: 10px; /* Añadido para posicionar en la parte inferior */
+    left: 50%; /* Centrar horizontalmente */
+    transform: translateX(-50%); /* Asegurar centrado horizontal */
+    margin: 0; /* Eliminar márgenes por defecto */
+}
+.ALMUERZOS .p1 {
+  position: absolute;
+  width: 295px;
+  font-family: "Inter-Black", Helvetica;
+  font-weight: 900;
+  color: #ff0000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  bottom: 1px; /* Añadido para posicionar en la parte inferior */
+  left: 50%; /* Centrar horizontalmente */
+  transform: translateX(-50%); /* Asegurar centrado horizontal */
+  margin: 0; /* Eliminar márgenes por defecto */
+}
+.ALMUERZOS .casa {
+  position: absolute;
+  width: 30px;
+  height: 26px;
+  top: 757px;
+  left: 117px;
+}
+
+.ALMUERZOS .ejercicios {
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  top: 763px;
+  left: 204px;
+}
+
+.ALMUERZOS .menu {
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  top: 38px;
+  left: 16px;
+}
