@@ -124,7 +124,7 @@ body, html {
   top: 399px;
   left: 99px;
 }
-
+/* segunda pantalla formulario */
 .FORMULARIO-DE-INICIO {
   background-color: transparent;
   display: flex;
@@ -329,217 +329,6 @@ body, html {
   width: 16px;
   height: 16px;
 }
-.FORMULARIO-DE-INICIO {
-  background-color: transparent;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-}
-body, html {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #f0f0f0; /* Color de fondo opcional */
-}
-.FORMULARIO-DE-INICIO .overlap-wrapper {
-  overflow: hidden;
-  background-image: url(./img/FORMULARIO-DE-INICIO.png);
-  background-size: cover;
-  background-position: 50% 50%;
-  width: 360px;
-  height: 800px;
-}
-
-.FORMULARIO-DE-INICIO .overlap {
-  position: relative;
-  width: 364px;
-  height: 800px;
-}
-
-.FORMULARIO-DE-INICIO .element-gym {
-  position: absolute;
-  width: 360px;
-  height: 800px;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-}
-
-.FORMULARIO-DE-INICIO .rectangle {
-  position: absolute;
-  width: 275px;
-  height: 547px;
-  top: 126px;
-  left: 42px;
-  background-color: #d9d9d9b2;
-  border-radius: 20px;
-}
-
-.FORMULARIO-DE-INICIO .text-wrapper {
-  position: absolute;
-  top: 140px;
-  left: 84px;
-  font-family: "Inter-Black", Helvetica;
-  font-weight: 900;
-  color: #ff0000;
-  font-size: 30px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.FORMULARIO-DE-INICIO .group {
-  position: absolute;
-  width: 364px;
-  height: 30px;
-  top: 0;
-  left: 0;
-}
-
-.FORMULARIO-DE-INICIO .overlap-group {
-  position: relative;
-  width: 360px;
-  height: 30px;
-  background-color: #08070c;
-}
-
-.FORMULARIO-DE-INICIO .icon {
-  position: absolute;
-  width: 13px;
-  height: 9px;
-  top: 12px;
-  left: 326px;
-}
-
-.FORMULARIO-DE-INICIO .div {
-  position: absolute;
-  top: 9px;
-  left: 297px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 11px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.FORMULARIO-DE-INICIO .text-wrapper-2 {
-  position: absolute;
-  top: 10px;
-  left: 16px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 11px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.FORMULARIO-DE-INICIO .img {
-  position: absolute;
-  width: 14px;
-  height: 10px;
-  top: 8px;
-  left: 275px;
-}
-
-.FORMULARIO-DE-INICIO .icon-instagram-fill {
-  position: absolute;
-  width: 12px;
-  height: 12px;
-  top: 11px;
-  left: 59px;
-}
-
-.FORMULARIO-DE-INICIO .icon-envelope-icon {
-  position: absolute;
-  width: 13px;
-  height: 10px;
-  top: 13px;
-  left: 78px;
-}
-
-.FORMULARIO-DE-INICIO .icon-facebook-icon {
-  position: absolute;
-  width: 10px;
-  height: 17px;
-  top: 6px;
-  left: 98px;
-}
-
-.FORMULARIO-DE-INICIO .NOMBRE {
-  position: absolute;
-  width: 243px;
-  height: 31px;
-  top: 235px;
-  left: 58px;
-  background-color: #ffffff;
-  border-radius: 30px;
-}
-
-.FORMULARIO-DE-INICIO .text-wrapper-3 {
-  position: absolute;
-  top: 8px;
-  left: 60px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000b0;
-  font-size: 11px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.FORMULARIO-DE-INICIO .FECHA {
-  position: absolute;
-  width: 243px;
-  height: 31px;
-  top: 317px;
-  left: 61px;
-  background-color: #ffffff;
-  border-radius: 30px;
-}
-
-.FORMULARIO-DE-INICIO .text-wrapper-4 {
-  position: absolute;
-  top: 8px;
-  left: 58px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000b0;
-  font-size: 11px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.FORMULARIO-DE-INICIO .GENERO {
-  position: absolute;
-  width: 243px;
-  height: 31px;
-  top: 398px;
-  left: 60px;
-  background-color: #ffffff;
-  border-radius: 30px;
-}
-
-.FORMULARIO-DE-INICIO .text-wrapper-5 {
-  position: absolute;
-  top: 8px;
-  left: 98px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000b0;
-  font-size: 11px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
 
 .FORMULARIO-DE-INICIO .PESO {
   position: absolute;
@@ -586,18 +375,6 @@ body, html {
   line-height: normal;
   white-space: nowrap;
 }
-.vector-icon {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0%;
-  right: 0%;
-  bottom: 0%;
-  left: 0%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  }
   .enviar {
   position: absolute;
   top: 36.17%;
@@ -613,21 +390,8 @@ body, html {
   color: #ff0000;
   font-family: Inter;
   }
-  .FORMULARIO-DE-INICIO {
-    background-color: transparent;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-  body, html {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0; /* Color de fondo opcional */
-}
-.motivacion {
+  /* tercera pantalla motivacion */
+  .motivacion {
   background-color: transparent;
   display: flex;
   flex-direction: row;
@@ -931,20 +695,8 @@ body, html {
   line-height: normal;
   white-space: nowrap;
 }
-/* <!-- Séptima Pantalla - Recetas y Dietas --> */
-
-
-body, html {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #f0f0f0;
-  margin: 0;
-  padding: 0;
-}
-
-.recetas-y-dietas {
+/* cuarta pantalla */
+.MENU {
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
@@ -952,6 +704,256 @@ body, html {
   width: 100%;
 }
 
+.MENU .overlap-wrapper {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 360px;
+  height: 800px;
+}
+
+.MENU .overlap {
+  position: relative;
+  width: 365px;
+  height: 800px;
+  left: -1px;
+}
+
+.MENU .woman-training-gym {
+  position: absolute;
+  width: 360px;
+  height: 760px;
+  top: 30px;
+  left: 1px;
+  object-fit: cover;
+}
+
+.MENU .rectangle {
+  position: absolute;
+  width: 360px;
+  height: 94px;
+  top: 0;
+  left: 0;
+  background-color: #abababcc;
+}
+
+.MENU .text-wrapper {
+  position: absolute;
+  top: 45px;
+  left: 135px;
+  font-family: "Inter", Helvetica;
+  font-weight: 900;
+  color: #ff0000;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.MENU .icon-menu-icon {
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  top: 42px;
+  left: 25px;
+}
+
+.MENU .div {
+  position: absolute;
+  width: 188px;
+  height: 391px;
+  top: 94px;
+  left: 0;
+  background-color: #abababcc;
+  border-radius: 0px 0px 20px 0px;
+}
+
+.MENU .text-wrapper-2 {
+  position: absolute;
+  top: 50px;
+  left: 60px;
+  font-family: "Inter", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.MENU .text-wrapper-3 {
+  position: absolute;
+  top: 100px;
+  left: 39px;
+  font-family: "Inter", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.MENU .text-wrapper-4 {
+  position: absolute;
+  top: 150px;
+  left: 46px;
+  font-family: "Inter", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.MENU .text-wrapper-5 {
+  position: absolute;
+  top: 200px;
+  left: 47px;
+  font-family: "Inter", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.MENU .text-wrapper-6 {
+  position: absolute;
+  top: 250px;
+  left: 41px;
+  font-family: "Inter", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.MENU .text-wrapper-7 {
+  position: absolute;
+  top: 300px;
+  left: 63px;
+  font-family: "Inter", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.MENU .rectangle-2 {
+  position: absolute;
+  width: 360px;
+  height: 30px;
+  top: 0;
+  left: 1px;
+  background-color: #818181;
+}
+
+.MENU .group {
+  position: absolute;
+  width: 364px;
+  height: 30px;
+  top: 0;
+  left: 1px;
+}
+
+.MENU .overlap-group {
+  position: relative;
+  width: 360px;
+  height: 30px;
+  background-color: #08070c;
+}
+
+.MENU .icon {
+  position: absolute;
+  width: 13px;
+  height: 9px;
+  top: 12px;
+  left: 326px;
+}
+
+.MENU .text-wrapper-8 {
+  position: absolute;
+  top: 9px;
+  left: 297px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.MENU .text-wrapper-9 {
+  position: absolute;
+  top: 10px;
+  left: 16px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.MENU .img {
+  position: absolute;
+  width: 14px;
+  height: 10px;
+  top: 8px;
+  left: 275px;
+}
+
+.MENU .icon-instagram-fill {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 11px;
+  left: 59px;
+}
+
+.MENU .icon-envelope-icon {
+  position: absolute;
+  width: 13px;
+  height: 10px;
+  top: 13px;
+  left: 78px;
+}
+
+.MENU .icon-facebook-icon {
+  position: absolute;
+  width: 10px;
+  height: 17px;
+  top: 6px;
+  left: 98px;
+}
+
+.MENU .rectangle-3 {
+  position: absolute;
+  width: 360px;
+  height: 60px;
+  top: 740px;
+  left: 1px;
+  background-color: #818181;
+}
+
+.MENU .group-2 {
+  position: absolute;
+  width: 301px;
+  height: 32px;
+  top: 755px;
+  left: 26px;
+}
+
+/* <!-- Séptima Pantalla - Recetas y Dietas --> */
 .recetas-y-dietas .overlap-wrapper {
   background-color: #ffffff;
   overflow: hidden;
@@ -1273,15 +1275,6 @@ body, html {
   left: 11px;
 }
 /* <!-- octava Pantalla - almuerzos --> */
-body, html {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #f0f0f0;
-  margin: 0;
-  padding: 0;
-}
 .ALMUERZOS {
   background-color: #ffffff;
   display: flex;
@@ -1519,8 +1512,8 @@ body, html {
     line-height: normal;
     bottom: 10px; /* Añadido para posicionar en la parte inferior */
     left: 50%; /* Centrar horizontalmente */
-    transform: translateX(-50%); /* Asegurar centrado horizontal */
-    margin: 0; /* Eliminar márgenes por defecto */
+    transform: translateX(-50%); 
+    margin: 0; 
 }
 .ALMUERZOS .p1 {
   position: absolute;
@@ -1532,10 +1525,10 @@ body, html {
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
-  bottom: 1px; /* Añadido para posicionar en la parte inferior */
-  left: 50%; /* Centrar horizontalmente */
-  transform: translateX(-50%); /* Asegurar centrado horizontal */
-  margin: 0; /* Eliminar márgenes por defecto */
+  bottom: 1px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  margin: 0; 
 }
 .ALMUERZOS .casa {
   position: absolute;
@@ -1560,3 +1553,267 @@ body, html {
   top: 38px;
   left: 16px;
 }
+.contenedor-pantallas {
+  width: 100%; /* Ancho total del contenedor */
+  height: 100%; /* Altura total del contenedor */
+  overflow: inherit; /* Agrega scroll al contenedor principal */
+}
+/* sexta pantalla entrenamiento por partes */
+.ENTRENAMIENTOS {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  }
+  .ENTRENAMIENTOS .overlap-wrapper {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 360px;
+  height: 800px;
+  }
+  .ENTRENAMIENTOS .overlap {
+  position: relative;
+  width: 457px;
+  height: 800px;
+  }
+  .ENTRENAMIENTOS .vector {
+  position: absolute;
+  width: 360px;
+  height: 800px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  }
+  .ENTRENAMIENTOS .rectangle {
+  position: absolute;
+  width: 360px;
+  height: 60px;
+  top: 740px;
+  left: 0;
+  background-color: #818181;
+  }
+  .ENTRENAMIENTOS .group {
+  position: absolute;
+  width: 301px;
+  height: 32px;
+  top: 755px;
+  left: -20px;
+  }
+  .ENTRENAMIENTOS .group4{
+      position: absolute;
+      width: 301px;
+      height: 32px;
+      top: 755px;
+      left: 160px;
+  }
+  .ENTRENAMIENTOS .group3 {
+      position: absolute;
+      width: 301px;
+      height: 32px;
+      top: 755px;
+      left: 70px;
+      }
+  
+  .ENTRENAMIENTOS .group2 {
+      position: absolute;
+      width: 301px;
+      height: 32px;
+      top: 755px;
+      left: -100px;
+      }
+  .ENTRENAMIENTOS .icon-menu-icon {
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  top: 38px;
+  left: 11px;
+  }
+  .ENTRENAMIENTOS .overlap-group-wrapper {
+  position: absolute;
+  width: 364px;
+  height: 30px;
+  top: 0;
+  left: 0;
+  }
+  .ENTRENAMIENTOS .overlap-group {
+  position: relative;
+  width: 360px;
+  height: 30px;
+  background-color: #08070c;
+  }
+  .ENTRENAMIENTOS .icon {
+  position: absolute;
+  width: 13px;
+  height: 9px;
+  top: 12px;
+  left: 326px;
+  }
+  .ENTRENAMIENTOS .text-wrapper {
+  position: absolute;
+  top: 9px;
+  left: 297px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  }
+  .ENTRENAMIENTOS .div {
+  position: absolute;
+  top: 10px;
+  left: 16px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  }
+  .ENTRENAMIENTOS .img {
+  position: absolute;
+  width: 14px;
+  height: 10px;
+  top: 8px;
+  left: 275px;
+  }
+  .ENTRENAMIENTOS .icon-instagram-fill {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 11px;
+  left: 59px;
+  }
+  .ENTRENAMIENTOS .icon-envelope-icon {
+  position: absolute;
+  width: 13px;
+  height: 10px;
+  top: 13px;
+  left: 78px;
+  }
+  .ENTRENAMIENTOS .icon-facebook-icon {
+  position: absolute;
+  width: 10px;
+  height: 17px;
+  top: 6px;
+  left: 98px;
+  }
+  .ENTRENAMIENTOS .ellipse {
+  width: 248px;
+  height: 248px;
+  top: 223px;
+  left: 49px;
+  border-radius: 124px;
+  position: absolute;
+  background-color: #ffffff;
+  }
+  .ENTRENAMIENTOS .sin-ttulo {
+  width: 270px;
+  height: 270px;
+  top: 212px;
+  left: 38px;
+  position: absolute;
+  object-fit: cover;
+  }
+  .ENTRENAMIENTOS .text-wrapper-2 {
+  position: absolute;
+  top: 528px;
+  left: 93px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  }
+  .ENTRENAMIENTOS .rectangle-2 {
+  position: absolute;
+  width: 334px;
+  height: 706px;
+  top: 37px;
+  left: 123px;
+  background-color: #d9d9d9d9;
+  border-radius: 20px;
+  }
+  .ENTRENAMIENTOS .icon-menu-icon-2 {
+  position: absolute;
+  width: 27px;
+  height: 65px;
+  top: 367px;
+  left: 127px;
+  }
+  .ENTRENAMIENTOS .div-wrapper {
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  top: 129px;
+  left: 162px;
+  }
+  .ENTRENAMIENTOS .overlap-2 {
+  position: relative;
+  height: 170px;
+  }
+  .ENTRENAMIENTOS .ellipse-2 {
+  width: 154px;
+  height: 154px;
+  top: 7px;
+  left: 9px;
+  border-radius: 76.93px;
+  position: absolute;
+  background-color: #ffffff;
+  }
+  .ENTRENAMIENTOS .sin-ttulo-2 {
+  width: 170px;
+  height: 170px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+  }
+  .ENTRENAMIENTOS .espalda-icono {
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  top: 315px;
+  left: 162px;
+  }
+  .ENTRENAMIENTOS .ellipse-3 {
+  width: 149px;
+  height: 149px;
+  top: 10px;
+  left: 10px;
+  border-radius: 74.7px;
+  position: absolute;
+  background-color: #ffffff;
+  }
+  .ENTRENAMIENTOS .pecho-icono {
+  position: absolute;
+  width: 156px;
+  height: 156px;
+  top: 511px;
+  left: 169px;
+  }
+  .ENTRENAMIENTOS .overlap-3 {
+  position: relative;
+  height: 156px;
+  }
+  .ENTRENAMIENTOS .ellipse-4 {
+  width: 147px;
+  height: 148px;
+  top: 5px;
+  left: 4px;
+  border-radius: 73.6px/73.91px;
+  position: absolute;
+  background-color: #ffffff;
+  }
+  .ENTRENAMIENTOS .capa {
+  position: absolute;
+  width: 156px;
+  height: 156px;
+  top: 0;
+  left: 0;
+  }
